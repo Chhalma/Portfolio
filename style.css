@@ -73,20 +73,36 @@ section{
  section,.about,.education,.skills,.projects,.contact,.left img,.right img,.container img{
   width: 100% !important;
   }
+  .social {right: 10%;}
+  .copyright{
+    display: block;
+    float:left;
+   margin-right: 120px !important;
+  }
+  .left,.right{
+      width:100%;
+      padding: 0 !important;
+      margin: 0;
+
+  }
+    
  .container{
   width: 95% !important;
   padding: 2%;
  }
  .button{
-  width:100%;
+  width:100% !important;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
- .left,.right{
-  padding: 0 !important;
-  margin: 0;
- }
+.fa,.fa-download{
+  font-size: 12px;
+  padding-left: 1px;
+}
+.home .right .button a{
+  font-size: small;
+}
 }
 nav {
   height: 50px;
@@ -147,8 +163,16 @@ nav {
     float: right;
     display: block;
   }
+  .detail:hover {
+    height: 260px !important;
+    }
+  
 }
-
+@media screen and (max-width: 800px)and (min-width:600px) {
+  .detail:hover {
+    height: 70% !important;
+    }
+}
 @media screen and (max-width: 1050px) {
   .topnav,.topnav.responsive {position: relative;
   width: 100%;
@@ -159,7 +183,7 @@ nav {
   .left-nav{
     margin-top: 50px !important;
     width: 100% !important;
-    padding: 0;
+    padding: 0 !important;
   }
   .left-nav h1{
     padding-top: 100px;
@@ -236,7 +260,7 @@ nav {
 }
 .home .right .button a{
   color: #FFFFFF;
-}
+  }
 .left-nav{
     display: block;
     width:55%;
@@ -316,11 +340,6 @@ padding-right: 0px;
   display: block;;
   justify-content: center;
 }
-@media screen and (max-width: 600px){
-  .left,.right{
-    width:100%;
-  }
-}
 .edu{
   width: 90%;
   margin-left: auto;
@@ -371,7 +390,7 @@ padding-left: 20%;
 }
 .detail {
   position: absolute;
-  height: 60px;
+  height: 75px;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -379,13 +398,21 @@ padding-left: 20%;
   background-color: #FFFFFF;
   overflow: hidden;
   transition: 0.2s;
-  padding: 20px;
   margin:0;
   padding: 0;
-
+  
 }
-.detail h3{
+.detail h2{
   color:#333333;
+  font-style:normal !important;
+  font-weight:bold !important;
+}
+.detail p{
+  text-align: justify;
+  font-style: normal;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .detail:hover {
   height: 210px;
@@ -397,6 +424,7 @@ padding-left: 20%;
 
 .detail .button{
   color:#3A6FB9;
+  font-style: normal;
   border-color: #3A6FB9;
   border-style: double;
   background-color: #F9A82F;
@@ -411,6 +439,10 @@ padding-left: 20%;
     justify-content: center;
     float:none;
   }
+  .detail p{
+    font-size: small;
+  }
+
   
 }
 .education,.projects{
@@ -539,11 +571,6 @@ footer .container{
     right: 2%;
     top: 0%;
 }
-@media screen and (max-width: 600px) {
-  .social {right: 10%;
-  
-  }
-}
 .social a img{
   box-sizing: 80%;
   opacity: 0.7;
@@ -554,6 +581,3 @@ footer .container{
 .social a:hover img{
   opacity: 1;
 }
-
-
-
