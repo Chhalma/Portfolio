@@ -1,4 +1,11 @@
-    function myFunction(){
+//reset contact form
+
+function submitForm() {
+  document.getElementById("contact-form").submit();
+  document.getElementById("contact-form").reset();
+  return false;
+  }			
+function myFunction(){
          let x = document.getElementById("myTopnav");
          if (x.className === "topnav") {
            x.className += " responsive";
