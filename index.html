@@ -241,20 +241,21 @@ My IT career started as a Graduate Software Engineer at Reve Systems(Telecommuni
 			<div class="container">
 				<h1>Contact</h1>
 				<p class="text"> Use this form to get in touch. I would love to hear from you.</p>
-			
-				<form class="contact-form">
+				<form name = "contact-form" id= "contact-form" class="contact-form" method="post" action="formValidation.php" target="_blank">
+					
 					<div class="contact-details">
 						<label for="name">Name: </label>
-						<input type="text" id="yourname" placeholder="Your Name..">
+						<input type="text" id="name" name="name" placeholder="Your Name.." required>
 						<label for="subject">Subject: </label>
-						<input type="text" id="subject" placeholder="Reason for your message..">
+						<input type="text" name="subject" placeholder="Reason for your message..">
 						<label for="email">Email Address: </label>
-						<input type="email" id="email" placeholder="Your Email Address Please..">
+						<input type="email" name="email" placeholder="Your Email Address Please.." required>
+						
 					</div>
 					<div class="message">
 						<label for="name">Message: </label>
-						<textarea id="msg" rows="15"></textarea>
-						<button type="submit" class="button">Submit</button>
+						<textarea id="message" rows="15" name="message"></textarea>
+						<input type="submit" class="button" name="submit" value="Submit" onclick="return submitForm()">
 					</div>
 				</form>
 				
