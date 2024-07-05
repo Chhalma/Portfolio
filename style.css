@@ -32,11 +32,11 @@ body {
  .button{
   width: 240px;
   height: 55px;
-  background-color:#F9A82F;
+  background-color:#f8dfdb;
   margin-top: 20px;
   box-sizing: border-box;
   border-style: solid ;
-  border-color: #F9A82F;
+  border-color: #f8dfdb;
   text-align: center;
   padding: 14px 35px;
   text-decoration: none;
@@ -61,7 +61,7 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color:#F9A82F;
+  background-color:#f8dfdb;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -278,7 +278,7 @@ nav {
    
   }
 .home .right a{
-  color: #F9A82F;
+  color: #f8dfdb;
   text-align: left;
 }
 .home .right a:hover{
@@ -300,7 +300,7 @@ nav {
   
   .left-nav h1{
     font-size: 200%;
-    background-color:#F9A82F;
+    background-color:#f8dfdb;
     color: #FFFFFF;
     text-align: center;
     padding: 33px 100px 25px 15px;
@@ -376,7 +376,7 @@ padding-right: 0px;
 }
 .education .edu h2{
   text-align: left;
-  color:#F9A82F;
+  color:#f8dfdb;
   } 
 .edu p{
   text-align: justify;
@@ -465,7 +465,7 @@ margin-bottom: 35px;
   font-style: normal;
   border-color: #3A6FB9;
   border-style: double;
-  background-color: #F9A82F;
+  background-color: #f8dfdb;
   
 }
 .detail .button:hover{
@@ -563,7 +563,7 @@ margin-bottom: 35px;
   width: 240px;
   height: 55px;
   font-size: 20px;
-  background-color:#F9A82F;
+  background-color:#f8dfdb;
   margin-top: 20px;
   box-sizing: border-box;
   border-style: solid ;
