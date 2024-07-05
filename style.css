@@ -15,6 +15,8 @@ body {
   display: block;
   flex-direction: column;
  }
+.error {color: #FF0000;}
+
  i{
   font-style: italic;
 
@@ -32,11 +34,11 @@ body {
  .button{
   width: 240px;
   height: 55px;
-  background-color:#f8dfdb;
+  background-color:#F9A82F;
   margin-top: 20px;
   box-sizing: border-box;
   border-style: solid ;
-  border-color: #f8dfdb;
+  border-color: #F9A82F;
   text-align: center;
   padding: 14px 35px;
   text-decoration: none;
@@ -61,7 +63,7 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color:#f8dfdb;
+  background-color:#F9A82F;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -278,7 +280,7 @@ nav {
    
   }
 .home .right a{
-  color: #f8dfdb;
+  color: #F9A82F;
   text-align: left;
 }
 .home .right a:hover{
@@ -300,7 +302,7 @@ nav {
   
   .left-nav h1{
     font-size: 200%;
-    background-color:#f8dfdb;
+    background-color:#F9A82F;
     color: #FFFFFF;
     text-align: center;
     padding: 33px 100px 25px 15px;
@@ -376,7 +378,7 @@ padding-right: 0px;
 }
 .education .edu h2{
   text-align: left;
-  color:#f8dfdb;
+  color:#F9A82F;
   } 
 .edu p{
   text-align: justify;
@@ -465,7 +467,7 @@ margin-bottom: 35px;
   font-style: normal;
   border-color: #3A6FB9;
   border-style: double;
-  background-color: #f8dfdb;
+  background-color: #F9A82F;
   
 }
 .detail .button:hover{
@@ -563,7 +565,7 @@ margin-bottom: 35px;
   width: 240px;
   height: 55px;
   font-size: 20px;
-  background-color:#f8dfdb;
+  background-color:#F9A82F;
   margin-top: 20px;
   box-sizing: border-box;
   border-style: solid ;
