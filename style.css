@@ -374,6 +374,7 @@ padding-right: 0px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  min-height: 50vh;
 
 }
 .education .edu h3{
