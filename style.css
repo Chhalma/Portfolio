@@ -367,7 +367,7 @@ padding-right: 0px;
   padding: 5px;
   width: 45%;
   float:right;
-  display: block;;
+  display: block;
   justify-content: center;
 }
 .edu{
@@ -380,7 +380,7 @@ padding-right: 0px;
   text-align: left;
   color:#F9A82F;
   } 
-.edu p ul{
+.edu p {
   text-align: left;
 }
 .edu i{
